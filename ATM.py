@@ -1,6 +1,6 @@
 import datetime
 import copy
-from CARD import Card
+from Card import Card
 
 class ValidationError(Exception):
     pass
@@ -18,7 +18,7 @@ class ATM:
     bills = dict()
 
     def __init__(self, model,id, five_t_amount = 100,two_t_amount= 100, one_t_amount= 100,five_h_amount= 100,two_h_amount= 100, one_h_amount= 100,fifty_amount= 100, ten_amount= 100):
-        self.__model = model;
+        self.__model = model
         self.__id = id
         self.bills[5000] = int(five_t_amount)
         self.bills[2000] = int(two_t_amount)

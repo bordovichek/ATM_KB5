@@ -1,6 +1,6 @@
 import random
 
-from CARD import Card
+from Card import Card
 from ATM import ATM
 
 class ExeApp:
