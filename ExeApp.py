@@ -83,20 +83,3 @@ class ExeApp:
             elif choise == 10:
                 break
         print("Work is over!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-classApp = ExeApp()
-
-classApp.execution()
